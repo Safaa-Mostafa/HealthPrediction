@@ -6,3 +6,4 @@ joblib
 flask
 flask_restful
 scikit-learn
+tensorflow==1.2.0
