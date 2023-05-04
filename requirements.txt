@@ -9,3 +9,6 @@ flask_restful
 scikit-learn
 tensorflow==2.2
 protobuf==3.20
+pillow
+python3-pil
+
