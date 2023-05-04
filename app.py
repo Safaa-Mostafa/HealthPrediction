@@ -6,12 +6,12 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import MinMaxScaler
 import os
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-from PIL import Image
-# Flask utils
-from werkzeug.utils import secure_filename
-from heatmap import save_and_display_gradcam,make_gradcam_heatmap
+# from tensorflow.keras.models import load_model
+# from tensorflow.keras.preprocessing import image
+# from PIL import Image
+# # Flask utils
+# from werkzeug.utils import secure_filename
+# from heatmap import save_and_display_gradcam,make_gradcam_heatmap
 
 app = Flask(__name__)
 api = Api(app)
