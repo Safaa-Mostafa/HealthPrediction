@@ -2,13 +2,15 @@ pip
 gunicorn 
 numpy
 pandas
-flask-restful
 pickle4
 joblib
 flask
 flask_restful
 scikit-learn
-tensorflow
+tensorflow==2.2
 protobuf==3.20
 Pillow
 matplotlib
+tensorflow-gpu=2.4
+cudnn=8
+cudatoolkit=11
