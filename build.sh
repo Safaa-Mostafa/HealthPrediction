@@ -1,4 +1,6 @@
 pip install --upgrade pip 
 python -m venv .env
-source .env/Scripts/activate
+cd .env/
+cd Scripts/
+activate
 pip install -r requirements.txt
