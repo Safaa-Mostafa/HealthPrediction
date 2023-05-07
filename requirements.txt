@@ -7,10 +7,9 @@ joblib
 flask
 flask_restful
 scikit-learn
-tensorflow==2.2
 protobuf==3.20
 Pillow
 matplotlib
-tensorflow-gpu=2.4
+tensorflow=2.4
 cudnn=8
 cudatoolkit=11
