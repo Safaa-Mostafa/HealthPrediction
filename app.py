@@ -45,7 +45,7 @@ MODEL_PATH = 'model_v1 (1).h5'
 
 
 #Load your trained model
-model = load_model(MODEL_PATH,custom_objects={"rmse": rmse})
+model = load_model(MODEL_PATH)
 print(model)
         # Necessary to make everything ready to run on the GPU ahead of time
 print('Model loaded. Start serving...')
