@@ -1,3 +1,4 @@
 pip install --upgrade pip 
-ython -m venv .env
+python -m venv .env
+source .env/Scripts/activate
 pip install -r requirements.txt
