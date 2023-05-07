@@ -5,6 +5,7 @@ pandas
 pickle4
 joblib
 flask
+h5py
 flask_restful
 scikit-learn
 protobuf==3.20
