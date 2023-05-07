@@ -6,7 +6,6 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import MinMaxScaler
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 from keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from PIL import Image
