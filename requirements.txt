@@ -5,9 +5,9 @@ pandas
 pickle4
 joblib
 flask
-h5py
 flask_restful
-protobuf==3.20
-matplotlib
-
 scikit-learn
+tensorflow==2.2
+protobuf==3.20
+Pillow
+matplotlib
