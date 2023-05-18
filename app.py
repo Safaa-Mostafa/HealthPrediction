@@ -4,6 +4,8 @@ from flask_restful import Api,Resource
 import pandas as pd
 import numpy as np
 import pickle
+from sklearn.preprocessing import MinMaxScaler
+import os
 
 app = Flask(__name__)
 api = Api(app)
