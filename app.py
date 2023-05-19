@@ -92,5 +92,6 @@ def yy():
            "apiStatus":"true",
            "predicted": convertTuple(prediction_class_ar),
         })   
-            
+if __name__== '__main__':
+ app.run(debug=False)
 
