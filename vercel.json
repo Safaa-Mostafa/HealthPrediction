@@ -1,0 +1,14 @@
+{
+    "build":[
+        {
+            "src":"HealthPrediction/app.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"HealthPrediction/app.py"
+        }
+    ]
+}
