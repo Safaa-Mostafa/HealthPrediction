@@ -42,10 +42,11 @@ def post():
         ca = posted_data['ca']
         thal = posted_data['thal']
         prediction = model3.predict([[age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal]])
-        if prediction == 1 :
+        print(prediction[0])
+        if prediction[0] == 1 :
          prediction_class_en = "You have heart disease, please consult a Doctor."
          prediction_class_ar = "لديك مرض القلب ، يرجى استشارة الطبيب"
-        elif prediction == 0 :
+        elif prediction[0] == 0 :
            prediction_class_en = "You don't have heart disease.",
            prediction_class_ar = "ليس لديك مرض القلب.",
         else :
@@ -72,10 +73,10 @@ def yy():
         float_features = [float(Glucose),float(BMI),float(Age),float(Insulin)]
         final_features = [np.array(float_features)]
         prediction = model2.predict( sc.transform(final_features) )
-        if prediction == 1 :
+        if prediction[0] == 1 :
            prediction_class_en = "You have Diabetes, please consult a Doctor."
            prediction_class_ar = "لديك مرض السكري ، يرجى استشارة الطبيب"
-        elif prediction == 0 :
+        elif prediction[0] == 0 :
            prediction_class_en = "You don't have Diabetes.",
            prediction_class_ar = "ليس لديك مرض السكري.",
         else :
