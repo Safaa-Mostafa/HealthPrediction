@@ -98,4 +98,5 @@ def yy():
            "predicted": convertTuple(prediction_class_ar),
         })   
 
-
+if __name__ == '__main__':
+    app.run(debug=true)
