@@ -4,4 +4,4 @@ import multiprocessing
 workers = (multiprocessing.cpu_count()) * 2 + 1
 threads = workers
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=true)
